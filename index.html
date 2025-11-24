@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Aplicativo Para Calcular Gorjetas</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>SPLI<BR>TTER</h1>
+  </header>
+
+  <section class="card">
+    <div class="cardBody">
+
+      <div class="bill">
+        <div class="numberBillHeader">
+          <h3>Bill</h3>
+          <p class="billError"></p>
+        </div>
+        <img src="images/icon-dollar.svg" alt="icon-dollar">
+        <input type="number" placeholder="0" id="billNumber">
+      </div>
+
+      <div class="selectTip">
+        <h3>Select Tip %</h3>
+        <div class="divButtonsSelectTip">
+          <button id="5" class="btnSelectTip">5%</button>
+          <button id="10" class="btnSelectTip">10%</button>
+          <button id="15" class="btnSelectTip">15%</button>
+          <button id="25" class="btnSelectTip">25%</button>
+          <button id="50" class="btnSelectTip">50%</button>
+          <input id="valueCustom" type="number" placeholder="Custom" >
+        </div>
+      </div>
+
+      <div class="numberPeople">
+        <div class="numberPeopleHeader">
+          <h3>Number of People</h3>
+          <p class="messageError"></p>
+        </div>
+        <img src="images/icon-person.svg" alt="icon-person">
+        <input type="number" placeholder="0" id="numberPeople">
+      </div>
+
+    </div><!--cardBody-->
+
+    <div class="cardFooter">
+
+      <div>
+        <div class="footerContent">
+          <div class="cardFooterContent">
+            <h3>Tip Amount</h3>
+            <p>/ person</p>
+          </div>
+
+          <div class="cardfooterNumber" id="tipAmount">
+            $0.00
+          </div>
+
+        </div>
+
+        <div class="footerContent">
+          <div class="cardFooterContent">
+            <h3>Total</h3>
+            <p>/ person</p>
+          </div>
+
+          <div class="cardfooterNumber" id="totalPerPerson">
+            $0.00
+          </div>
+        </div>
+      </div>
+
+      <div class="footerButton">
+        <button id="resetBtn">RESET</button>
+      </div>
+
+    </div><!--cardFooter-->
+
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://portfolio-brown-eta-66.vercel.app/" target="_blank">Mikael Torres</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
