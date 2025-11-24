@@ -1,4 +1,4 @@
-# Frontend Mentor - Solução para o Painel de Acompanhamento de Tempo
+# Frontend Mentor - Solução para Aplicativo para Calcular Gorjetas
 
 Esta é uma solução para o [Desafio Aplicativo para calcular gorjetas no Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação, construindo projetos realistas.
 
@@ -27,7 +27,7 @@ Os usuários devem ser capazes de:
 ![](./preview.jpg)
 
 ### Links
-- URL do site ao vivo: [URL do site ao vivo aqui](*)
+- URL do site ao vivo: [URL do site ao vivo aqui](https://front-end-mentor-aplicativo-para-ca.vercel.app/)
 
 ## Meu Processo
 
