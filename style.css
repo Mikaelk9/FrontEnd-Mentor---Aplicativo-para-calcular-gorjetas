@@ -157,13 +157,16 @@ button.buttonActive {
   background-color: hsl(172, 67%, 45%);
   color: hsl(183, 100%, 15%);
 }
+
 .inputError {
-    border: 2px solid red;
+  border: 2px solid red;
 }
+
 .messageError {
-    color: red;
-    font-size: 14px;
+  color: red;
+  font-size: 14px;
 }
+
 /*cardFooter*/
 .cardFooter {
   background-color: hsl(183, 100%, 15%);
@@ -216,12 +219,20 @@ button.buttonActive {
   font-weight: 700;
 }
 
-button.btnResetEmpty{
+button.btnResetEmpty {
   background-color: hsl(183, 95%, 22%);
 }
 
 
 @media screen and (min-width:700px) {
+
+  body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .card {
     display: flex;
@@ -250,11 +261,12 @@ button.btnResetEmpty{
   .divButtonsSelectTip {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .divButtonsSelectTip button,
   .divButtonsSelectTip input,
   .bill input,
   .numberPeople input,
-  .footerButton button{
+  .footerButton button {
     cursor: pointer;
   }
 
